@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="wrapper" class="game-wrapper game-loading">
+    <video id="appVideo" muted></video>
+    <canvas id="appCanvas"></canvas>
+    <canvas id="faceCanvas"></canvas>
+
+    <div class="backdrop top" id="backdropTop">
+      <h1 class="title app-name">Vượt Ngàn Tầng Mây</h1>
+      <h2 class="title congrats">Xin chúc mừng</h2>
+      <h3 class="sub-title app-slogan">Gom đầy nụ cười</h3>
+      <h3 id="name" class="sub-title name">Kids Plaza</h3>
+
+      <div class="point">
+        <img src="images/point_star.png" alt="">
+        <span id="pointNumber" class="number">0</span>
+      </div>
+
+      <div class="action-box">
+        <div class="game-menu">
+          <h2 class="text loading">Tải game ...</h2>
+          <h2 class="text start">Bắt đầu nào</h2>
+          <div class="button start-button" id="playBtn">
+            <img src="images/play_btn.png" alt="">
+          </div>
+        </div>
+        <div class="game-share">
+          <h2 class="text sharing">Chia sẻ lên Facebook</h2>
+          <button>Chia sẻ</button>
+        </div>
+      </div>
+    </div>
+    <div class="backdrop bottom">
+
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
